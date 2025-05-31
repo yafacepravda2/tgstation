@@ -37,8 +37,8 @@
 	if(hallucination_duration_in_seconds < volume && SPT_PROB(10, seconds_per_tick))
 		affected_mob.adjust_hallucinations(10 SECONDS)
 
-/datum/reagent/drug/cannabis
-	name = "Cannabis"
+/datum/reagent/drug/thc
+	name = "THC"
 	description = "A psychoactive drug from the Cannabis plant used for recreational purposes."
 	color = "#059033"
 	overdose_threshold = INFINITY
@@ -46,7 +46,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	metabolization_rate = 0.125 * REAGENTS_METABOLISM
 
-/datum/reagent/drug/cannabis/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
+/datum/reagent/drug/thc/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
 	. = ..()
 	affected_mob.apply_status_effect(/datum/status_effect/stoned)
 	if(SPT_PROB(1, seconds_per_tick))

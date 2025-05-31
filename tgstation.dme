@@ -6656,4 +6656,6 @@
 #include "interface\fonts\spess_font.dm"
 #include "interface\fonts\tiny_unicode.dm"
 #include "interface\fonts\vcr_osd_mono.dm"
+#include "shitcode\face\code\copypaste\bong.dm"
+#include "shitcode\face\code\copypaste\drugs.dm"
 // END_INCLUDE

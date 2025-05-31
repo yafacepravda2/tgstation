@@ -2317,6 +2317,15 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	glass_price = DRINK_PRICE_MEDIUM
 
+/datum/reagent/consumable/ethanol/sins_delight
+	name = "Sins delight"
+	description = "Smells like seven sins."
+	color = "#330000"
+	boozepwr = 66
+	quality = DRINK_FANTASTIC
+	taste_description = "irresistible sweetness with a hint of sourness, followed by iron and the feeling of a warm summer breeze"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
 /datum/reagent/consumable/ethanol/godmother
 	name = "Godmother"
 	description = "A twist on a classic, liked more by mature women."
